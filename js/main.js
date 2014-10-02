@@ -1,5 +1,5 @@
-var salesLeft = $('.sales');
-var detailsLeft = $('.sales__details');
+var salesLeft = $('.salesLeft');
+var detailsLeft = $('.detailsLeft');
 
 var buttonClickHandler = function () {
 	var currentState = detailsLeft.attr('data-state');
@@ -14,8 +14,8 @@ var buttonClickHandler = function () {
 salesLeft.on('click', buttonClickHandler)
 
 
-var salesRight = $('.sales');
-var detailsRight = $('.sales__details');
+var salesRight = $('.salesLeft');
+var detailsRight = $('.detailsLeft');
 
 var buttonClickHandler = function () {
 	var currentState = detailsRight.attr('data-state');
