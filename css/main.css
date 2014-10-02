@@ -159,6 +159,6 @@ body {
   text-indent: 100%;
 }
 
-.detailsLeft[data-state="active"] {
+.sales__details[data-state="active"] {
   opacity: 1;
 }

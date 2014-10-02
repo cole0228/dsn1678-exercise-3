@@ -14,8 +14,8 @@ var buttonClickHandler = function () {
 salesLeft.on('click', buttonClickHandler)
 
 
-var salesRight = $('.salesLeft');
-var detailsRight = $('.detailsLeft');
+var salesRight = $('.salesRight');
+var detailsRight = $('.detailsRight');
 
 var buttonClickHandler = function () {
 	var currentState = detailsRight.attr('data-state');
